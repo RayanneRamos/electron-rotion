@@ -10,12 +10,10 @@ import { useQuery } from "@tanstack/react-query";
 export function Sidebar() {
   const isMacOS = process.platform === "darwin";
 
-  const { data } = useQuery({
-    queryKey: ["documents"],
-    queryFn: async () => {
-      const response = await window.api.fetchDocuments();
-      return response.data;
-    },
+  const { data } = useQuery(["documents"], async () => {
+    const response = await window.api.fetchDocuments();
+
+    return response.data;
   });
 
   return (
