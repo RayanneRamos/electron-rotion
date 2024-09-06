@@ -7,6 +7,7 @@ import "./ipc";
 import "./store";
 import "./tray.ts";
 import { createTray } from "./tray";
+import { createShortcuts } from "./shortcuts";
 
 function createWindow(): void {
   // Create the browser window.
@@ -29,6 +30,7 @@ function createWindow(): void {
   });
 
   createTray(mainWindow);
+  createShortcuts(mainWindow);
 
   mainWindow.on("ready-to-show", () => {
     mainWindow.show();
