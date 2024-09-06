@@ -5,6 +5,7 @@ import icon from "../../resources/icon.png";
 import { createFileRoute, createURLRoute } from "electron-router-dom";
 import "./ipc";
 import "./store";
+import './tray.ts'
 
 function createWindow(): void {
   // Create the browser window.
