@@ -38,6 +38,14 @@ const api = {
   deleteDocument(req: DeleteDocumentRequest): Promise<void> {
     return ipcRenderer.invoke(IPC.DOCUMENTS.DELETE, req);
   },
+
+  onNewDocumentRequest(callback: () => void) {
+    ipcRenderer.on("new-document", callback);
+
+    return () => {
+      ipcRenderer.off("new-docuemnt", callback);
+    };
+  },
 };
 
 // Use `contextBridge` APIs to expose Electron APIs to
