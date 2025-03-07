@@ -16,6 +16,12 @@
 
 [Rotion]() É uma versão simplificada do Notion, projetada para proporcionar uma experiência de organização e produtividade com recursos essenciais. A plataforma permite que os usuários criem e gerenciem notas, tarefas e projetos em um ambiente intuitivo e minimalista. Ideal para quem busca uma alternativa leve e funcional para organização pessoal e profissional.
 
+## 🌟 Funcionalidades
+
+1. **Criação e gerenciamento de notas, tarefas e projetos** 
+2. **Interface intuitiva e minimalista para uma experiência fluida**
+3. **Organização eficiente para uso pessoal e profissional**
+
 ## 🧪 Technologies
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
