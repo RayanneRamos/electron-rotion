@@ -22,7 +22,7 @@
 2. **Interface intuitiva e minimalista para uma experiência fluida**
 3. **Organização eficiente para uso pessoal e profissional**
 
-## 🧪 Technologies
+## 🧪 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
